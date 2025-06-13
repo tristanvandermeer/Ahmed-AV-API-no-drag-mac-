@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="color-scheame" content="light dark" />
+
+  <title>Ask Ahmed</title>
+  
+  <link rel="stylesheet" href="xp.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="window">
+
+    <div class="title-bar" data-tauri-drag-region>
+      <div class="title-bar-text">Ahmed</div>
+      <div class="title-bar-controls">
+        <button aria-label="Close"></button>
+      </div>
+    </div>
+
+    <div class="window-body">
+      ,<div class="output">
+        <p id="text"></p>
+      </div>
+      
+      <img src="ahmedborder.png" class="ahmed"/> <!-- class="xp-avatar" -->
+      <img src="speech.png" class="bubble"/>
+      <!-- <progress max="100" value="70"></progress> -->
+      <button type="button" class="ok" id="ok">OK</button>
+
+    </div>
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

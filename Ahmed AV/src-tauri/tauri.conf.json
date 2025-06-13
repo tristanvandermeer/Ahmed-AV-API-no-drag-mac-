@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "ahmed-av",
+  "version": "0.1.0",
+  "identifier": "com.ahmed-av.app",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "macOSPrivateApi": true,
+    "windows": [
+      {
+        "title": "ahmed-av",
+        "width": 450,
+        "height": 337,
+        "transparent": true,
+        "resizable": false,
+        "fullscreen": false,
+        "decorations": false
+      }
+    ],
+    "security": {
+      "capabilities": [
+        {
+          "identifier": "draggable-window",
+          "windows": [
+            "w"
+          ],
+          "permissions": [
+            "core:window:allow-start-dragging"
+          ]
+        }
+      ],
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

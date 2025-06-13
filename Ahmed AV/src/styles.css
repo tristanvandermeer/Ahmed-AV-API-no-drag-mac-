@@ -1,0 +1,101 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+p, h1, h2, h3, span, div{
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: never;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: transparent;
+  font-family: Tahoma, sans-serif;
+  font-size: 11px;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: auto;
+  font-smooth: never;
+}
+
+.window {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ebe9d8;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.window-body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.title-bar {
+  -webkit-app-region: drag;
+}
+
+
+.title-bar-controls button {
+  -webkit-app-region: no-drag;
+}
+
+
+.ok {
+  position: absolute;
+  left: 170px;
+  bottom: 20px;
+  font-size: 13px; 
+}
+
+button {
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 2px 12px;
+  color: black !important;
+  margin: auto;
+}
+
+.xp-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid black;
+  image-rendering: pixelated;
+}
+
+.ahmed {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  object-fit: cover;
+  image-rendering: pixelated;
+}
+
+.output {
+  position: absolute;
+  left: 55px;
+  top: 70px;
+  z-index: 9999;
+}
+
+.bubble {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  left: 17px;
+  top: 10px;
+}
