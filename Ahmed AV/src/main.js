@@ -1,5 +1,5 @@
-import "xp.css/dist/XP.css"
-import './styles.css';
+//import "xp.css/dist/XP.css"
+//import './styles.css';
 
 // const { event, window: tauriWindow, path } = window.__Tauri__;
 /*
@@ -7,6 +7,10 @@ import { invoke } from '@tauri-apps/api/tauri';
 
 invoke('greet', { name: 'Tristan' }).then(console.log).catch(console.error);
 */
+
+// THE APP API WORKS !!!!!!! THIS IS HUGE NEWS
+
+
 
 setInterval(() => {
     const now = new Date();

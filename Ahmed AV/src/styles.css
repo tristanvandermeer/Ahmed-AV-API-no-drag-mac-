@@ -40,16 +40,16 @@ html, body {
   height: 100%;
   overflow: hidden;
 }
-
+/*
 .title-bar {
   -webkit-app-region: drag;
 }
 
 
 .title-bar-controls button {
-  -webkit-app-region: no-drag;
+  -webkit-app-region: drag;
 }
-
+*/
 
 .ok {
   position: absolute;
